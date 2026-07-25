@@ -164,3 +164,18 @@ This README describes the various steps and commands for preprocessing the data,
    ```bash
    Ctrl + C
    ```
+
+## ⚠️ WSL 2 Requirement
+
+**WSL 2 must be used on Windows to avoid the `mmap: Operation not supported` error.**
+
+In PowerShell, verify and configure WSL 2 with the following commands:
+
+```powershell
+wsl --version
+wsl -l -v
+wsl --update
+wsl --set-version Ubuntu-24.04 2
+wsl --set-default-version 2
+```
+
