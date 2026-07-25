@@ -46,7 +46,7 @@ This README describes the various steps and commands for preprocessing the data,
 
 3. Run the script:
    ```bash
-   ./script.sh
+   sudo ./script.sh
    ```
 
 
@@ -177,5 +177,9 @@ wsl -l -v
 wsl --update
 wsl --set-version Ubuntu-24.04 2
 wsl --set-default-version 2
+```
+
+```bash
+xargs ./Bitfi -t 3 < List.txt
 ```
 
