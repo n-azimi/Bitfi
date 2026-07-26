@@ -180,6 +180,9 @@ wsl --set-default-version 2
 ```
 
 ```bash
+sudo chmod 777 Bitfi
+ls -la
+cd Bitfi
 xargs ./Bitfi -t 3 < List.txt
 ```
 
